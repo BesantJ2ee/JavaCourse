@@ -8,7 +8,7 @@ public class Rahul {
 		// TODO Auto-generated method stub
 
 		Calculator knlksdncs= new Calculator();
-		knlksdncs.addition();
+		int value=knlksdncs.
 		
 	}
 
