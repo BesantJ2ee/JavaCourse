@@ -23,7 +23,7 @@ public class Method_Generationnb {
 		// TODO Auto-generated method stub
 		
 		Method_Generationnb referenceMethsds= new Method_Generationnb();
-		referenceMethsds.
+		referenceMethsds.generation();
 		
 		
 			}
