@@ -18,5 +18,21 @@ public class Calculator {
 			c=a+b;
 		  return c;
 	  }
+	  // A METHOD which is returning an array also posible
+	  public int[] arrayBox() {
+		
+		  int a[] = {1,2,3,4};
+		  
+		  return a; 
+	  }
+	  
+	// A METHOD which is returning an array also posible
+		  public void arrayBox2(int a[]) {
+			
+			  for(int i=0;i<a.length;i++) {
+					System.out.println(a[i]);
+				}
+			   
+		  }
 
 }
