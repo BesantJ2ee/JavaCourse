@@ -1,9 +1,13 @@
 package com.besant.Chapter3;
 
 import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.ListIterator;
 import java.util.Map;
+import java.util.SortedMap;
+import java.util.TreeMap;
 
 public class MappingDetails {
 	
@@ -46,5 +50,47 @@ public class MappingDetails {
 		
 		
 	}
+	
+	void showOtherMap()
+	{
+	Hashtable<Integer, String > df = new Hashtable<Integer, String>();	
+	df.put(1, "Bangalore");
+	df.put(2, "Bellary");
+	df.put(4, "Badami");
+	df.put(7, "Bandra");
+	
+	 df.forEach((fsfs,afasfsa) -> System.out.println("Key = "
+             + fsfs + ", Value = " + afasfsa));
+	
+	 TreeMap<Integer, String > dfq = new TreeMap<Integer, String>();
+	 
+	 dfq.put(1, "Bangalore");
+	 dfq.put(2, "Bellary");
+	 dfq.put(4, "Badami");
+	 dfq.put(7, "Bandra");
+	 
+	 dfq.forEach((fsfs,afasfsa) -> System.out.println("Key = "
+             + fsfs + ", Value = " + afasfsa));
+	 
+	 SortedMap<Integer, String > dfqfa = new TreeMap<Integer, String>();
+	 dfqfa.put(1, "Bangalore");
+	 dfqfa.put(2, "Bellary");
+	 dfqfa.put(4, "Badami");
+	 dfqfa.put(7, "Bandra");
+	 
+	 dfqfa.forEach((fsfs,afasfsa) -> System.out.println("Key = "
+             + fsfs + ", Value = " + afasfsa));
+	 
+	 LinkedHashMap<Integer, String > dfqfacsdc = new LinkedHashMap<Integer, String>();
+	 dfqfacsdc.put(1, "Bangalore");
+	 dfqfacsdc.put(2, "Bellary");
+	 dfqfacsdc.put(4, "Badami");
+	 dfqfacsdc.put(7, "Bandra");
+	 
+	 dfqfacsdc.forEach((fsfs,afasfsa) -> System.out.println("Key = "
+             + fsfs + ", Value = " + afasfsa));
+	}
+	
+	
 
 }
