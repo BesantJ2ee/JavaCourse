@@ -47,6 +47,8 @@ public class Arrray_Discussion {
 		Character zchar = 'g';
 		
 		
+		//Sop
+		
 		for(int i=0;i<charter.length;i++)
 		{
 		if(charter[i]=='B')
