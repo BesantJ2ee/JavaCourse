@@ -7,7 +7,22 @@ public class ChapterThreeCollection {
 		listDiscussion listObject = new listDiscussion();
 		//listObject.list();
 		
-		listObject.listTwo();
+		//listObject.listTwo();
+		
+		//listObject.linkedListDiscussion();
+		//listObject.linkedHahSetDiscussion();
+		//listObject.linkedTreeSetDiscussion();
+		
+		set_Interface_discussion setsf = new set_Interface_discussion();
+		//setsf.setdetails();
+		//setsf.showConversion();
+		
+		VectorDiscussion cvf = new VectorDiscussion();
+		//cvf.show();
+		
+		MappingDetails vappingDetails = new MappingDetails();
+		vappingDetails.showMap();
+		
 	}
 
 }

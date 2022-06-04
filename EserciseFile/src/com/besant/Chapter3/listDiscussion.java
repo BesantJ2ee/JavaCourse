@@ -3,7 +3,10 @@ package com.besant.Chapter3;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.LinkedHashSet;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.TreeSet;
 
 public class listDiscussion {
 	
@@ -203,6 +206,63 @@ public class listDiscussion {
 		
 		
 		
+	}
+	
+	
+	void linkedListDiscussion() {
+		LinkedList<String> ghh = new LinkedList<String>();
+		ghh.add("Karnataka");
+		ghh.add("Punjab");
+		ghh.add("UttarPradesh");
+		ghh.add("Maharashtra");
+		ghh.add("AndhraPradesh");
+		
+		
+		for(String nffsnfs: ghh)
+		{
+			System.out.println(nffsnfs);
+		}
+	}
+	
+	void linkedHahSetDiscussion() {
+		LinkedHashSet<String> ghh = new LinkedHashSet<String>();
+		ghh.add("Karnataka");
+		ghh.add("Punjab");
+		ghh.add("UttarPradesh");
+		ghh.add("Maharashtra");
+		ghh.add("AndhraPradesh");
+		ghh.add("AndhraPradesh");
+		
+		
+		for(String nffsnfs: ghh)
+		{
+			System.out.println(nffsnfs);
+		}
+	}
+	
+	void linkedTreeSetDiscussion() {
+		TreeSet<String> ghh = new TreeSet<String>();
+		ghh.add("Punjab");
+		ghh.add("Pondicherry");
+		ghh.add("Karnataka");
+		ghh.add("UttarPradesh");
+		ghh.add("Maharashtra");
+		ghh.add("AndhraPradesh");
+		ghh.add("AndhraPradesh");
+		
+		
+		//getting ceiling value for Karnataka
+        // using ceiling() method
+        String value = (ghh.ceiling("P"));
+
+        //This method returns the least element greater than or equal to e, or null if there is no such element.
+        System.out.println("Ceiling value for Karnataka: "
+                           + value);
+		
+		for(String nffsnfs: ghh)
+		{
+			System.out.println(nffsnfs);
+		}
 	}
 	
 	
