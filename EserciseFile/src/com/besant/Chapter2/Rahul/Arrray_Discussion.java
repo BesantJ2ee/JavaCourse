@@ -65,6 +65,39 @@ public class Arrray_Discussion {
 		}		
 		}
 		System.out.println("the out put is= "+xchar.toString()+ychar.toString()+zchar.toString());
+		
+		
+		
+		
+		
+		
+		int abc[] = {1,2,3,4};
+		
+		int bcd[] = {2,3,4,5};
+		
+		int cdf[] = new int[4];
+		int sum=0;
+		
+		for(int i=0;i<abc.length;i++)
+		{
+			for(int j=0;j<bcd.length;j++)
+			{
+				if(i==j)
+				{
+					sum=abc[i]+bcd[j];
+					
+					cdf[i]=sum;	
+				}
+				
+				
+			}
+		}
+		
+		for(int kgf:cdf)
+		{
+			System.out.println(kgf);
+		
+		}
 	}
 
 	//the out put is =BOX
@@ -74,5 +107,10 @@ public class Arrray_Discussion {
 	//Option c  wipro 
 	//Option d  null
 	//Option e  cts
+	
+	
+	
+	
+	
 	
 }
