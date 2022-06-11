@@ -9,11 +9,11 @@ public class ChapterThreeCollection {
 		
 		//listObject.listTwo();
 		
-		//listObject.linkedListDiscussion();
+		// listObject.linkedListDiscussion();
 		//listObject.linkedHahSetDiscussion();
 		//listObject.linkedTreeSetDiscussion();
 		
-		set_Interface_discussion setsf = new set_Interface_discussion();
+		//set_Interface_discussion setsf = new set_Interface_discussion();
 		//setsf.setdetails();
 		//setsf.showConversion();
 		
@@ -21,7 +21,7 @@ public class ChapterThreeCollection {
 		//cvf.show();
 		
 		MappingDetails vappingDetails = new MappingDetails();
-		vappingDetails.showMap();
+		//vappingDetails.showMap();
 		
 	}
 

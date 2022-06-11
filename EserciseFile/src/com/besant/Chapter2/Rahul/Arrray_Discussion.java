@@ -76,7 +76,10 @@ public class Arrray_Discussion {
 		int bcd[] = {2,3,4,5};
 		
 		int cdf[] = new int[4];
+		int bcfjsdbjcks[] = new int[4];
 		int sum=0;
+		
+		int multiplicastion =0;
 		
 		for(int i=0;i<abc.length;i++)
 		{
@@ -85,8 +88,10 @@ public class Arrray_Discussion {
 				if(i==j)
 				{
 					sum=abc[i]+bcd[j];
-					
+					multiplicastion= abc[i]*bcd[j];
 					cdf[i]=sum;	
+					bcfjsdbjcks[i]=multiplicastion;
+					
 				}
 				
 				

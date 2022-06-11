@@ -70,15 +70,28 @@ public class set_Interface_discussion {
 		
 		Set<Integer> setaABC = new HashSet<Integer>();
 		setaABC.addAll(listObject11);
+		System.out.println(setaABC);
+		System.out.println("<<<<<<<<1Before>>>>>>>>");
+		
+		for(Integer fvv:setaABC)
+		{
+			System.out.println(fvv);
+		}
+		System.out.println("<<<<<<<<2After>>>>>>>>");
 		 
 		Set<Integer> setaABCD = new HashSet<Integer>();
+		
+		System.out.println("<<<<<<<<1Before>>>>>>>>");
 		
 		for(int i=0;i<listObject11.size();i++)
 		{
 			setaABCD.add(listObject11.get(i));
 		}
-		System.out.println(setaABCD);
 		
+		
+		
+		System.out.println(setaABCD);
+		System.out.println("<<<<<<<<2After>>>>>>>>");
 		for(Integer dc: setaABC)
 		{
 			System.out.println(dc);
