@@ -3,14 +3,17 @@ package com.besant.Chapter3;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 import java.util.TreeSet;
 
 public class listDiscussion {
 	
 	void list()
+	
 	{
 		ArrayList<Integer> listObject = new ArrayList<Integer>();
 		
@@ -311,8 +314,117 @@ System.out.println("listOject9 not contains listOject10"+"Hashcode of 9");
 		{
 			System.out.println(nffsnfs);
 		}
+		
+		
+		
+		
+		
+		
 	}
 	
+	
+	void carparking()
+	{
+		
+		/*
+		 * Raju = Holding (Physics, chemistry, Biology) 
+		 * Reshma = Holding (IT, Maths,
+		 * eNGLISH) 
+		 * lAXMAN = Holding (BOTANY, Engineering, Biology) 
+		 * SOORYA = Holding
+		 * (communiucaton, graphics, history)
+		 */
+	      ArrayList<String> holdingRaju = new ArrayList<String>();
+		 holdingRaju.add("Physics");
+		 holdingRaju.add("Chemistry");
+		 holdingRaju.add("Biology");
+		 
+		 ArrayList<String> holdingReshma = new ArrayList<String>();
+		 holdingRaju.add("IT");
+		 holdingRaju.add("Maths");
+		 holdingRaju.add("English");
+		 
+		
+		Map< ArrayList<String>, ArrayList<String>> df56 = new HashMap< ArrayList<String>, ArrayList<String>>();
+		 df56.put(holdingReshma, holdingRaju);
+		
+		 Map<String, ArrayList<String>> df57 = new HashMap< String, ArrayList<String>>();
+		 df57.put("Reshma", holdingReshma);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		LinkedList<String> carpar = new LinkedList<String>();
+		carpar.add("UP01-AB-4590");
+		carpar.add("KA03-NK-4890");
+		
+		
+		Map<String, String> df = new HashMap<String, String>();
+		df.put("UP01-AB-4590", "Bike");
+		df.put("KA03-NK-4890", "Car");
+		df.put("UP02-AB-4690", "Truck");
+		df.put("AP01-AB-4590", "Bike");
+		df.put("JH03-NK-4890", "Car");
+		df.put("GA02-AB-4690", "Truck");
+		
+		
+		 for (Map.Entry<String, String> entry : df.entrySet()) 
+		 { 
+			 
+			 if(entry.getValue().equalsIgnoreCase("Bike"))
+			 {
+				 String keyType = entry.getKey(); 
+				 System.out.println("Check All the Bike numbers "+keyType);
+			 }
+			 
+			 
+		 }
+		 
+		
+		
+			/*
+			 * for (String a : df.keySet()) System.out.println("key: "+a);
+			 * 
+			 * for (String b : df.values()) System.out.println("value: "+b );
+			 */
+		
+		
+		
+		/*
+		 * for (Map.Entry<String, String> GDDNNFG : df.entrySet()) {
+		 * 
+		 * 
+		 * 
+		 * String key = GDDNNFG.getKey(); String val = GDDNNFG.getValue();
+		 * System.out.println("Key "+key+"    Value "+val); }
+		 */
+		
+		
+		
+		Map<Integer, String> df1 = new HashMap<Integer, String>();
+		df1.put(1, "Bike");
+		df1.put(2, "Car");
+		df1.put(3, "Truck");
+		df1.put(4, "Car");
+		df1.put(4, "Carfg");
+		df1.put(null, "Carfg");
+		
+		HashMap<Integer, String> df5 = new HashMap<Integer, String>();
+		df5.put(1, "Bike");
+		df5.put(2, "Car");
+		df5.put(3, "Truck");
+		df5.put(4, "Car");
+		df5.put(null, "Carfg");
+		df5.put(null, "rt");
+		
+		
+	
+	}
 	
 
 }
