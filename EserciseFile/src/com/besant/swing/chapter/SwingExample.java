@@ -35,6 +35,8 @@ public class SwingExample {
 
 			public void actionPerformed(ActionEvent e) {
 				
+				
+				//Converting the swing object to string and use equal ignore case method to check the input
 				if(admin.getText().toString().equalsIgnoreCase("admin") && password.getText().toString().equalsIgnoreCase("admin"))
 				{
 					System.out.println("Welcome Logic");
@@ -44,6 +46,7 @@ public class SwingExample {
 					
 				}
 
+				//Swing object compares  string object  and  check which fails 
 				if(admin.getText()=="admin" && password.getText()==("admin"))
 				{
 					System.out.println("Welcome Logic");
